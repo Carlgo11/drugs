@@ -1,4 +1,4 @@
-package player;
+package com.carlgo11.drugs.player;
 
 import org.bukkit.Material;
 import org.bukkit.Sound;
