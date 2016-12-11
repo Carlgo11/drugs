@@ -1,4 +1,4 @@
-package com.carlgo11.drugs.player;
+package com.carlgo11.meow.player;
 
 import org.bukkit.Material;
 import org.bukkit.Sound;
