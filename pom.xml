@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.carlgo11</groupId>
   <artifactId>Meow</artifactId>
-  <version>1.1</version>
   <packaging>jar</packaging>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
+  
+  <name>Meow</name>
+  <version>1.1</version>
+  <url>https://github.com/carlgo11/meow</url>
+  <description>Meow gives you drugs in Minecraft</description>
+  
   <repositories>
     <repository>
       <id>spigot-repo</id>
@@ -18,7 +18,7 @@
   </repositories>
 
   <build>
-    <finalName>Meow</finalName>
+    <finalName>${project.name}</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -52,17 +52,10 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>bukkit</artifactId>
-      <version>LATEST</version>
+      <version>1.12.2-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
-</project>
 </project>
