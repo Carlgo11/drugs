@@ -1,6 +1,7 @@
 main: com.carlgo11.meow.Main
-name: Meow
+name: ${project.artifactId}
 version: ${project.version}
 author: Carlgo11
-website: https://github.com/Carlgo11/meow
+website: ${porject.url}
 api-version: "1.15"
+description: ${project.description}
