@@ -2,6 +2,6 @@ main: com.carlgo11.meow.Main
 name: ${project.artifactId}
 version: ${project.version}
 author: Carlgo11
-website: ${porject.url}
+website: ${project.url}
 api-version: "1.15"
 description: ${project.description}
